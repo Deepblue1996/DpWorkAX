@@ -1,4 +1,4 @@
-![Image text](https://raw.githubusercontent.com/Deepblue1996/DpWork/master/ic_logo.png)
+![Image text](https://raw.githubusercontent.com/Deepblue1996/DpWorkAX/master/ic_logo.png)
 
 <a href="http://developer.android.com/index.html"><img src="https://img.shields.io/badge/platform-android-green.svg"></a>
 [![](https://jitpack.io/v/Deepblue1996/Bun.svg)](https://jitpack.io/#Deepblue1996/Bun)
@@ -58,7 +58,7 @@ openGL音频媒体播放，实用工具类集合，内置国际化语言选择�
 	Android Studio 3.0 +:
 
     implementation 'androidx.multidex:multidex:2.0.1'
-    implementation 'com.deep:DpWorkAX:1.0.0'
+    implementation 'com.deep:DpWorkAX:1.0.1'
 
 步骤3. 使用混淆，可参考这里的 proguard-rules.pro
 
