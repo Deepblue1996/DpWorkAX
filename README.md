@@ -60,7 +60,7 @@ Step 2. Add the dependency
 	Android Studio 3.0 +:
 
     implementation 'androidx.multidex:multidex:2.0.1'
-    implementation 'com.deep:DpWorkAX:1.0.3'
+    implementation 'com.deep:DpWorkAX:1.0.4'
 
 Step 3. For confusion, refer to proguard-rules.pro here
 
