@@ -49,8 +49,7 @@ openGL音频媒体播放，实用工具类集合，内置国际化语言选择�
 	    repositories {
 		...
 		maven { url 'https://jitpack.io' }
-		maven { url 'https://dl.bintray.com/zchu/maven/' }
-       	maven { url "https://raw.githubusercontent.com/Deepblue1996/DpWorkAX/master" }
+		maven { url 'http://zdhua.xyz' }
 	    }
 	}
 步骤2. 添加依赖关系
@@ -58,7 +57,7 @@ openGL音频媒体播放，实用工具类集合，内置国际化语言选择�
 	Android Studio 3.0 +:
 
     implementation 'androidx.multidex:multidex:2.0.1'
-    implementation 'com.deep:DpWorkAX:1.0.7'
+    implementation 'com.deep:DpWorkAX:1.1.8'
 
 步骤3. 使用混淆，可参考这里的 proguard-rules.pro
 

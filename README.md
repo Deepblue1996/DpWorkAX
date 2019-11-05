@@ -51,8 +51,7 @@ Add it in your root build.gradle at the end of repositories:
 	    repositories {
 		...
 		maven { url 'https://jitpack.io' }
-		maven { url 'https://dl.bintray.com/zchu/maven/' }
-       	maven { url "https://raw.githubusercontent.com/Deepblue1996/DpWorkAX/master" }
+		maven { url 'http://zdhua.xyz' }
 	    }
 	}
 Step 2. Add the dependency
@@ -60,7 +59,7 @@ Step 2. Add the dependency
 	Android Studio 3.0 +:
 
     implementation 'androidx.multidex:multidex:2.0.1'
-    implementation 'com.deep:DpWorkAX:1.0.7'
+    implementation 'com.deep:DpWorkAX:1.1.8'
 
 Step 3. For confusion, refer to proguard-rules.pro here
 
