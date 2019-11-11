@@ -21,18 +21,23 @@ Welcome to QQ group: 257015764
 
 One:
 
-Create or open your Application Class, 
+Create and open the Application(custom name) Class,
 
-You must extend DpWorkApplication, then add the class annotation
-
-<pre><code>@DpBugly("Bugly id")
-</code></pre>
+Inheritance DpWorkApplication
 
 Two:
 
-Create public class WorkCore extends DpWorkCore, then add the class annotation
+Create and open the WorkCore(custom name) Class,
 
-<pre><code>@DpInit(*.class) // FirstScreen Name
+Inheritance DpWorkCore
+
+Three:
+
+Create and open the FirstScreen(custom name) Class,
+
+Inherit BaseScreen and add the main entry annotation @DpMainScreen to the header
+
+<pre><code>@DpMainScreen
 </code></pre>
 
 ## Basic deployment
@@ -58,7 +63,7 @@ Step 2. Add the dependency
 
 	Android Studio 3.0 +:
 
-    implementation 'com.deep:DpWorkAX:1.2.4'
+    implementation 'com.deep:DpWorkAX:1.2.6'
 
 Step 3. For confusion, refer to proguard-rules.pro here
 

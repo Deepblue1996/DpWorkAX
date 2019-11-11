@@ -23,18 +23,23 @@ openGL音频媒体播放，实用工具类集合，内置国际化语言选择�
 
 第一步:
 
-创建并打开 Application Class,
+创建并打开 Application(自定义名字) Class,
 
-继承 DpWorkApplication，然后添加类注解
-
-<pre><code>@DpBugly("Bugly id")
-</code></pre>
+继承 DpWorkApplication
 
 第二步:
 
-创建 public class WorkCore extends DpWorkCore, 然后添加类注解
+创建并打开 WorkCore(自定义名字) Class,
 
-<pre><code>@DpInit(*.class) // 首界面类
+继承 DpWorkCore
+
+第三步:
+
+创建并打开 FirstScreen(自定义名字) Class,
+
+继承 BaseScreen, 头部添加主入口注解@DpMainScreen
+
+<pre><code>@DpMainScreen
 </code></pre>
 
 ## 基础配置
@@ -56,7 +61,7 @@ openGL音频媒体播放，实用工具类集合，内置国际化语言选择�
 
 	Android Studio 3.0 +:
 
-    implementation 'com.deep:DpWorkAX:1.2.4'
+    implementation 'com.deep:DpWorkAX:1.2.6'
 
 步骤3. 使用混淆，可参考这里的 proguard-rules.pro
 
