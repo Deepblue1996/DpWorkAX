@@ -63,7 +63,7 @@ Step 2. Add the dependency
 
 	Android Studio 3.0 +:
 
-    implementation 'com.deep:DpWorkAX:1.3.5'
+    implementation 'com.deep:DpWorkAX:1.3.6'
 
 Step 3. For confusion, refer to proguard-rules.pro here
 
