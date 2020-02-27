@@ -61,7 +61,7 @@ openGL音频媒体播放，实用工具类集合，内置国际化语言选择�
 
 	Android Studio 3.0 +:
 
-    implementation 'com.deep:DpWorkAX:1.4.0'
+    implementation 'com.deep:DpWorkAX:1.4.3'
 
 步骤3. 使用混淆，可参考这里的 proguard-rules.pro
 
