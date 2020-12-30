@@ -1,4 +1,25 @@
 # Add project specific ProGuard rules here.
+# You can control the set of applied configuration files using the
+# proguardFiles setting in build.gradle.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+# Uncomment this to preserve the line number information for
+# debugging stack traces.
+#-keepattributes SourceFile,LineNumberTable
+
+# If you keep the line number information, uncomment this to
+# hide the original source file name.
+#-renamesourcefileattribute SourceFile
+# Add project specific ProGuard rules here.
 # By default, the flags in this file are appended to flags specified
 # in D:\Android\sdk/tools/proguard/proguard-android.txt
 # You can edit the include path and order by changing the proguardFiles
@@ -527,7 +548,7 @@
 
 # Gson
 # removes such information by default, so configure it to keep all of it. 
--keepattributes Signature 
+# -keepattributes Signature
 # Gson specific classes 
 -keep class sun.misc.Unsafe { *; }
 #-keep class com.google.gson.stream.** { *; } 
@@ -571,13 +592,19 @@
 
 #############################################
 #
-# 运行错误
+# okhttp3
 #
 #############################################
 -keep class okhttp3.** { *; }
 -keep interface okhttp3.** { *; }
 -dontwarn okhttp3.**
 
+
+#############################################
+#
+# okio
+#
+#############################################
 -keep class okio.** { *; }
 -keep interface okio.** { *; }
 -dontwarn okio.**
@@ -586,10 +613,52 @@
 -keep interface com.hitomi.** { *; }
 -dontwarn com.hitomi.**
 
+#############################################
+#
+# retrofit2
+#
+#############################################
 -dontwarn retrofit2.**
 -keep class retrofit2.** { *; }
 -keepattributes Signature
 -keepattributes Exceptions
 
+#############################################
+#
+# wlmedia
+#
+#############################################
 -keep class com.ywl5320.wlmedia.**{*;}
 -keep class pl.droidsonroids.gif.**{*;}
+
+#############################################
+#
+# litepal
+#
+#############################################
+-keep class org.litepal.** {
+    *;
+}
+
+-keep class * extends org.litepal.crud.DataSupport {
+    *;
+}
+
+-keep class * extends org.litepal.crud.LitePalSupport {
+    *;
+}
+
+#############################################
+#
+# ViewBinding
+#
+#############################################
+-keep class * implements androidx.viewbinding.ViewBinding {
+    public static *** bind(android.view.View);
+    public static *** inflate(android.view.LayoutInflater);
+}
+
+-keep public class * extends androidx.fragment.app.Fragment {
+	public <fields>;
+	public <methods>;
+}

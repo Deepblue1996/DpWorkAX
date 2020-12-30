@@ -52,16 +52,25 @@ openGL音频媒体播放，实用工具类集合，内置国际化语言选择�
 
 	allprojects {
 	    repositories {
-		...
-		maven { url 'https://jitpack.io' }
-		maven { url 'http://zdhua.xyz' }
+            maven { url "https://maven.aliyun.com/repository/google" }
+            maven { url "https://maven.aliyun.com/repository/public" }
+            maven { url "https://maven.aliyun.com/repository/central" }
+		    maven { url 'https://jitpack.io' }
+		    maven { url 'https://wosk.top' }
 	    }
 	}
+
+	app build.gradle
+
+    buildFeatures{
+        viewBinding = true
+    }
+
 步骤2. 添加依赖关系
 
 	Android Studio 3.0 +:
 
-    implementation 'com.deep:DpWorkAX:1.5.1'
+    implementation 'com.deep:DpWorkAX:1.6.2'
 
 步骤3. 使用混淆，可参考这里的 proguard-rules.pro
 

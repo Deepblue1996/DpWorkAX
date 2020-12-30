@@ -54,16 +54,25 @@ Add it in your root build.gradle at the end of repositories:
 
 	allprojects {
 	    repositories {
-		...
-		maven { url 'https://jitpack.io' }
-		maven { url 'http://zdhua.xyz' }
+            maven { url "https://maven.aliyun.com/repository/google" }
+            maven { url "https://maven.aliyun.com/repository/public" }
+            maven { url "https://maven.aliyun.com/repository/central" }
+		    maven { url 'https://jitpack.io' }
+		    maven { url 'https://wosk.top' }
 	    }
 	}
+
+	app build.gradle
+
+    buildFeatures{
+        viewBinding = true
+    }
+
 Step 2. Add the dependency
 
 	Android Studio 3.0 +:
 
-    implementation 'com.deep:DpWorkAX:1.5.1'
+    implementation 'com.deep:DpWorkAX:1.6.2'
 
 Step 3. For confusion, refer to proguard-rules.pro here
 
