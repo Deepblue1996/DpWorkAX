@@ -35,11 +35,11 @@ openGL音频媒体播放，实用工具类集合，内置国际化语言选择�
 
 第三步:
 
-创建并打开 FirstScreen(自定义名字) Class,
+创建并打开 WorkCore(自定义名字) Class,
 
-继承 BaseScreen, 头部添加主入口注解@DpMainScreen
+继承 DpWorkCore, 头部添加主入口注解@DpMainScreenKt，入口类参数
 
-<pre><code>@DpMainScreen
+<pre><code>@DpMainScreen(*::class)
 </code></pre>
 
 ## 基础配置
@@ -68,9 +68,9 @@ openGL音频媒体播放，实用工具类集合，内置国际化语言选择�
 
 步骤2. 添加依赖关系
 
-	Android Studio 3.0 +:
+	Android Studio 4.0 +:
 
-    implementation 'com.deep:DpWorkAX:1.6.2'
+    implementation 'com.deep:DpWorkAX:1.6.5'
 
 步骤3. 使用混淆，可参考这里的 proguard-rules.pro
 

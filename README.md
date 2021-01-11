@@ -33,11 +33,11 @@ Inheritance DpWorkCore
 
 Three:
 
-Create and open the FirstScreen(custom name) Class,
+Create and open the WorkCore(custom name) Class,
 
-Inherit BaseScreen and add the main entry annotation @DpMainScreen to the header
+Inheritance DpWorkCore and add the main entry annotation @DpMainScreen to the header your FirstScreen
 
-<pre><code>@DpMainScreen
+<pre><code>@DpMainScreenKt(*::class)
 </code></pre>
 
 ## Basic deployment
@@ -70,9 +70,9 @@ Add it in your root build.gradle at the end of repositories:
 
 Step 2. Add the dependency
 
-	Android Studio 3.0 +:
+	Android Studio 4.0 +:
 
-    implementation 'com.deep:DpWorkAX:1.6.2'
+    implementation 'com.deep:DpWorkAX:1.6.5'
 
 Step 3. For confusion, refer to proguard-rules.pro here
 
