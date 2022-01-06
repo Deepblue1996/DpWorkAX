@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c6e13b2-a72a-49b1-ad2c-e471ba2ec86a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mu65CnrQ6Yw9l1WbIcm6bGQa0M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Android\other\DpWorkAX" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c6e13b2-a72a-49b1-ad2c-e471ba2ec86a" name="Default Changelist" comment="" />
+      <created>1569565532389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569565532389</updated>
+    </task>
+    <task id="LOCAL-00001" summary="DpWorkAX first version">
+      <created>1569565700924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569565700924</updated>
+    </task>
+    <task id="LOCAL-00002" summary="DpWorkAX first version">
+      <created>1569565774881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569565774881</updated>
+    </task>
+    <task id="LOCAL-00003" summary="log">
+      <created>1569566021719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569566021719</updated>
+    </task>
+    <task id="LOCAL-00004" summary="恢复网络层正常使用">
+      <created>1569566705248</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569566705248</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修复返回键失效的问题">
+      <created>1569567997385</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569567997385</updated>
+    </task>
+    <task id="LOCAL-00006" summary="返回键增加默认返回上一级，除非重写onback()方法">
+      <created>1569569273210</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569569273210</updated>
+    </task>
+    <task id="LOCAL-00007" summary="更新日志">
+      <created>1569569316812</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569569316812</updated>
+    </task>
+    <task id="LOCAL-00008" summary="增加以类名的方式打开界面以及带参数，弹窗也增加类名打开，减少主动编写懒加载的方式">
+      <created>1569655123965</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569655123965</updated>
+    </task>
+    <task id="LOCAL-00009" summary="DpTabManager增加默认显示第一个">
+      <created>1569655856524</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569655856524</updated>
+    </task>
+    <task id="LOCAL-00010" summary="修复小bug">
+      <created>1570864160252</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570864160252</updated>
+    </task>
+    <task id="LOCAL-00011" summary="加强了动画的控制">
+      <created>1571031379981</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571031379981</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test">
+      <created>1571032991802</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571032991802</updated>
+    </task>
+    <task id="LOCAL-00013" summary="DialogScreen增加getActivityContext">
+      <created>1571033707387</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1571033707388</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test">
+      <created>1571034066149</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1571034066149</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test">
+      <created>1571034710739</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1571034710739</updated>
+    </task>
+    <task id="LOCAL-00016" summary="细节调整">
+      <created>1571124082768</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1571124082768</updated>
+    </task>
+    <task id="LOCAL-00017" summary="增加DoveInit注解">
+      <created>1571625721957</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1571625721957</updated>
+    </task>
+    <task id="LOCAL-00018" summary="默认初始Dove基础配置">
+      <created>1571644031544</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1571644031544</updated>
+    </task>
+    <task id="LOCAL-00019" summary="增加了@DpDataBase对象数据库初始化注解">
+      <created>1572576465678</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1572576465678</updated>
+    </task>
+    <task id="LOCAL-00020" summary="上传1.1.6">
+      <created>1572590548597</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1572590548597</updated>
+    </task>
+    <task id="LOCAL-00021" summary="更改服务器地址">
+      <created>1572922603518</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1572922603518</updated>
+    </task>
+    <task id="LOCAL-00022" summary="全新的动画管理，弹窗增加毛玻璃背景，取消@DpInit，增加@DpMainScreen">
+      <created>1573439105861</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1573439105861</updated>
+    </task>
+    <task id="LOCAL-00023" summary="取消DpWorkCore的强制继承">
+      <created>1573439332369</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1573439332369</updated>
+    </task>
+    <task id="LOCAL-00024" summary="取消DpWorkCore的强制继承">
+      <created>1573439348557</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1573439348557</updated>
+    </task>
+    <task id="LOCAL-00025" summary="修复Glide导致返回出错的问题">
+      <created>1573452249476</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1573452249476</updated>
+    </task>
+    <task id="LOCAL-00026" summary="修复Glide导致返回的问题">
+      <created>1573453650234</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1573453650234</updated>
+    </task>
+    <task id="LOCAL-00027" summary="修改说明">
+      <created>1573465458572</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1573465458572</updated>
+    </task>
+    <task id="LOCAL-00028" summary="修复@DpDataBase无法读取的问题">
+      <created>1573800888593</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1573800888593</updated>
+    </task>
+    <task id="LOCAL-00029" summary="修复横屏下DialogScreen导航栏不隐藏的问题">
+      <created>1573810804518</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1573810804518</updated>
+    </task>
+    <task id="LOCAL-00030" summary="更改动画轨迹，让动画感觉更加迅速">
+      <created>1574153300092</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1574153300092</updated>
+    </task>
+    <task id="LOCAL-00031" summary="修复高斯模糊动画的内存泄漏问题">
+      <created>1574154240314</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1574154240314</updated>
+    </task>
+    <task id="LOCAL-00032" summary="更新最底层库">
+      <created>1574301189990</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1574301189990</updated>
+    </task>
+    <task id="LOCAL-00033" summary="增加注解@DpDebug, @DpDensity, @DpLandscape, @DpScreen">
+      <created>1574649321701</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1574649321701</updated>
+    </task>
+    <task id="LOCAL-00034" summary="修复大量bug">
+      <created>1576543279133</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1576543279133</updated>
+    </task>
+    <task id="LOCAL-00035" summary="调整了动画参数，新增新的注解功能">
+      <created>1582786272653</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1582786272653</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Dialog增加miui系统判断高度，优化lang方法">
+      <created>1584522731172</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1584522731172</updated>
+    </task>
+    <task id="LOCAL-00037" summary="fixed bug: 最小化后台，切换前台，屏幕自适应变大问题">
+      <created>1587895901515</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1587895901516</updated>
+    </task>
+    <task id="LOCAL-00038" summary="增加ViewBinding的支持">
+      <created>1609296095539</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1609296095539</updated>
+    </task>
+    <task id="LOCAL-00039" summary="增加Kotlin兼容支持，语法更精简">
+      <created>1610153652622</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1610153652622</updated>
+    </task>
+    <task id="LOCAL-00040" summary="更新日志">
+      <created>1610331080783</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1610331080783</updated>
+    </task>
+    <task id="LOCAL-00041" summary="更新日志">
+      <created>1610331156977</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1610331156977</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="细节调整" />
+    <MESSAGE value="增加DoveInit注解" />
+    <MESSAGE value="默认初始Dove基础配置" />
+    <MESSAGE value="增加了@DpDataBase对象数据库初始化注解" />
+    <MESSAGE value="上传1.1.6" />
+    <MESSAGE value="更改服务器地址" />
+    <MESSAGE value="全新的动画管理，弹窗增加毛玻璃背景，取消@DpInit，增加@DpMainScreen" />
+    <MESSAGE value="取消DpWorkCore的强制继承" />
+    <MESSAGE value="修复Glide导致返回出错的问题" />
+    <MESSAGE value="修复Glide导致返回的问题" />
+    <MESSAGE value="修改说明" />
+    <MESSAGE value="修复@DpDataBase无法读取的问题" />
+    <MESSAGE value="修复横屏下DialogScreen导航栏不隐藏的问题" />
+    <MESSAGE value="更改动画轨迹，让动画感觉更加迅速" />
+    <MESSAGE value="修复高斯模糊动画的内存泄漏问题" />
+    <MESSAGE value="更新最底层库" />
+    <MESSAGE value="增加注解@DpDebug, @DpDensity, @DpLandscape, @DpScreen" />
+    <MESSAGE value="修复大量bug" />
+    <MESSAGE value="调整了动画参数，新增新的注解功能" />
+    <MESSAGE value="Dialog增加miui系统判断高度，优化lang方法" />
+    <MESSAGE value="fixed bug: 最小化后台，切换前台，屏幕自适应变大问题" />
+    <MESSAGE value="增加ViewBinding的支持" />
+    <MESSAGE value="增加Kotlin兼容支持，语法更精简" />
+    <MESSAGE value="更新日志" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新日志" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="558" y="87" key="CommitChangelistDialog2" timestamp="1610331156356">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="558" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610331156356" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610331158160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610331158160" />
+  </component>
+</project>
