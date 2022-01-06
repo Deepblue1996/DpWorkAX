@@ -72,7 +72,7 @@ Step 2. Add the dependency
 
 	Android Studio 4.0 +:
 
-    implementation 'com.deep:DpWorkAX:1.6.5'
+    implementation 'com.deep:DpWorkAX:1.7.9'
 
 Step 3. For confusion, refer to proguard-rules.pro here
 
