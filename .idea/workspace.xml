@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c6e13b2-a72a-49b1-ad2c-e471ba2ec86a" name="Default Changelist" comment="" />
+    <list default="true" id="3c6e13b2-a72a-49b1-ad2c-e471ba2ec86a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -378,7 +380,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610331156977</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="迭代更新，处于长期稳定">
+      <created>1641439314944</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1641439314947</updated>
+    </task>
+    <task id="LOCAL-00043" summary="迭代更新，处于长期稳定">
+      <created>1641439402429</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1641439402429</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +424,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="细节调整" />
     <MESSAGE value="增加DoveInit注解" />
     <MESSAGE value="默认初始Dove基础配置" />
@@ -433,16 +448,17 @@
     <MESSAGE value="增加ViewBinding的支持" />
     <MESSAGE value="增加Kotlin兼容支持，语法更精简" />
     <MESSAGE value="更新日志" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新日志" />
+    <MESSAGE value="迭代更新，处于长期稳定" />
+    <option name="LAST_COMMIT_MESSAGE" value="迭代更新，处于长期稳定" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="87" key="CommitChangelistDialog2" timestamp="1610331156356">
+    <state x="558" y="87" key="CommitChangelistDialog2" timestamp="1641439401751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610331156356" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610331158160">
+    <state x="558" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1641439401751" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1641439403510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610331158160" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1641439403510" />
   </component>
 </project>
